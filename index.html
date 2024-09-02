@@ -1,213 +1,529 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="zxx">
 <head>
-  <!--====== Required meta tags ======-->
-  <meta charset="utf-8" />
-  <meta http-equiv="x-ua-compatible" content="ie=edge" />
-  <meta name="description" content="" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-  <!--====== Title ======-->
-  <title>Jamaluk Spa & Massage Center</title>
-
-  <!--====== Favicon Icon ======-->
-  <link rel="shortcut icon" href="../assets/images/favicon.svg" type="image/svg" />
-
-  <!--====== Bootstrap css ======-->
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-
-  <!--====== Line Icons css ======-->
-  <link rel="stylesheet" href="assets/css/lineicons.css" />
-
-  <!--====== Tiny Slider css ======-->
-  <link rel="stylesheet" href="assets/css/tiny-slider.css" />
-
-  <!--====== gLightBox css ======-->
-  <link rel="stylesheet" href="assets/css/glightbox.min.css" />
-
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Jamaluk Spa and Massage</title>
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&amp;display=swap">
+    <link rel="stylesheet" href="css/plugins.css" />
+    <link rel="stylesheet" href="css/style.css" />
 </head>
-
 <body>
-
-  <!--====== NAVBAR NINE PART START ======-->
-
-  <section class="navbar-area navbar-nine">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="index.html">
-              <!-- <img src="assets/images/white-logo.svg" alt="Logo" /> -->
-              <h4 style="color: white;">Jamaluk Spa & Massage</h1>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNine"
-              aria-controls="navbarNine" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="toggler-icon"></span>
-              <span class="toggler-icon"></span>
-              <span class="toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse sub-menu-bar" id="navbarNine">
-              <ul class="navbar-nav me-auto">
-                <li class="nav-item">
-                  <a class="page-scroll active" href="#hero-area">Home</a>
-                </li>
-                <!-- <li class="nav-item">
-                  <a class="page-scroll" href="">Services</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="page-scroll" href="#pricing">Pricing</a>
-                </li>
-                <li class="nav-item">
-                  <a class="page-scroll" href="#contact">Contact</a>
-                </li> -->
-              </ul>
-            </div>
-
-            <!-- <div class="navbar-btn d-none d-lg-inline-block">
-              <a class="menu-bar" href="#side-menu-left"><i class="lni lni-menu"></i></a>
-            </div> -->
-          </nav>
-          <!-- navbar -->
+    <!-- Preloader -->
+    <div class="preloader-bg"></div>
+    <div id="preloader">
+        <div id="preloader-status">
+            <div class="preloader-position loader"> <span></span> </div>
         </div>
-      </div>
-      <!-- row -->
     </div>
-    <!-- container -->
-  </section>
-
-  <!--====== NAVBAR NINE PART ENDS ======-->
-
-  <!--====== SIDEBAR PART START ======-->
-
-  <!-- <div class="sidebar-left">
-    <div class="sidebar-close">
-      <a class="close" href="#close"><i class="lni lni-close"></i></a>
+    <!-- Progress scroll totop -->
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
     </div>
-    <div class="sidebar-content">
-      <div class="sidebar-logo">
-        <a href="index.html"><img src="assets/images/logo.svg" alt="Logo" /></a>
-      </div>
-      <p class="text">Lorem ipsum dolor sit amet adipisicing elit. Sapiente fuga nisi rerum iusto intro.</p>
-      <div class="sidebar-menu">
-        <h5 class="menu-title">Quick Links</h5>
-        <ul>
-          <li><a href="javascript:void(0)">About Us</a></li>
-          <li><a href="javascript:void(0)">Our Team</a></li>
-          <li><a href="javascript:void(0)">Latest News</a></li>
-          <li><a href="javascript:void(0)">Contact Us</a></li>
-        </ul>
-      </div>
-      <div class="sidebar-social align-items-center justify-content-center">
-        <h5 class="social-title">Follow Us On</h5>
-        <ul>
-          <li>
-            <a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a>
-          </li>
-          <li>
-            <a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a>
-          </li>
-          <li>
-            <a href="javascript:void(0)"><i class="lni lni-linkedin-original"></i></a>
-          </li>
-          <li>
-            <a href="javascript:void(0)"><i class="lni lni-youtube"></i></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div> -->
-  <div class="overlay-left"></div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo-wrapper">
+                <a class="logo" href="index.html"> <img src="img/jamaluk-logo.png" class="logo-img" alt=""> </a>
+                <!-- <a class="logo" href="index.html"> <h2>Perukar <span>Barber Shop</span></h2> </a> -->
+            </div>
+            <!-- Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="ti-menu"></i></span> </button>
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#staffs">Staffs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
 
-  <!--====== SIDEBAR PART ENDS ======-->
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header Video -->
+    <header class="header">
+        <div class="video-fullscreen-wrap">
+            <!-- The opacity on the image is made with "data-overlay-dark="number". You can change it using the numbers 0-9. -->
+            <div class="video-fullscreen-video" data-overlay-dark="3">
+                <video playsinline="" autoplay="" loop="" muted="">
+                    <source src="videos/banner_video.mp4" type="video/mp4" autoplay="" loop="" muted="">
+                    <!-- <source src="https://duruthemes.com/demo/html/perukar/video.webm" type="video/webm" autoplay="" loop="" muted=""> -->
+                </video>
+            </div>
+            <div class="v-middle caption overlay">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 text-center">
+                            <h6>Relax, Rejuvenate, Refresh</h6>
+                            <h1>Your Sanctuary for Wellness in Ajman</h1>
+                            <h6>Al Rawda 2, Ajman. Appointment: +971 55 404 3821</h6>
+                            <a href="tel:+971554043821" class="button-1 mt-15">Call Now<span></span></a>
+                            <a href="https://wa.me/+971554043821" class="button-1 mt-15">WhatsApp Now<span></span></a>
+  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- arrow down -->
+        <div class="arrow bounce text-center">
+            <a href="#" data-scroll-nav="1" class=""> <i class="ti-arrow-down"></i> </a>
+        </div>
+    </header>
+    <!-- About -->
+    <section class="about section-padding" data-scroll-index="1" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-30">
+                    <div class="section-head mb-20">
+                        <div class="section-subtitle">Since 2006</div>
+                        <div class="section-title">Jamaluk Spa</div>
+                    </div>
+                    <p>Located in the heart of Al Rawda 2, Ajman, Jamaluk Spa is your sanctuary for relaxation and rejuvenation. Our spa is designed to offer a tranquil escape from the hustle and bustle of daily life. Whether you seek relief from stress, a therapeutic massage, or simply a place to unwind, our skilled therapists are dedicated to providing you with an unforgettable experience.</p>
+                    <p>At Jamaluk Spa, we believe in providing a holistic approach to wellness. Our services are carefully crafted to offer you a luxurious and personalized experience that caters to your unique needs.</p>
+                    <ul class="about-list list-unstyled mb-30">
+                        <li>
+                            <div class="about-list-icon"> <span class="ti-check"></span> </div>
+                            <div class="about-list-text">
+                                <p>Professional and certified therapists</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="about-list-icon"> <span class="ti-check"></span> </div>
+                            <div class="about-list-text">
+                                <p>High-quality, natural products for all treatments</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="about-list-icon"> <span class="ti-check"></span> </div>
+                            <div class="about-list-text">
+                                <p>Commitment to customer satisfaction and care</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col col-md-3 animate-box" data-animate-effect="fadeInUp"> 
+                    <img src="img/about-2.jpg" alt="Jamaluk Spa Image 1" class="mt-90 mb-30"> 
+                </div>
+                <div class="col col-md-3 animate-box" data-animate-effect="fadeInUp"> 
+                    <img src="img/about-1.jpg" alt="Jamaluk Spa Image 2"> 
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <!-- Start header Area -->
-  <section id="hero-area" class="header-area header-eight">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-5 col-md-12 col-12">
-          <div class="header-content">
-            <h1>Relax at Jamaluk Spa - haven of serenity.</h1>
-            <p>
-              Treat yourself to soothing massages and spa indulgence with our special offers. Pure relaxation awaits.
-            </p>
-            <br/>
+    <!-- heiglights Box -->
+    <section class="services-box section-padding pt-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="item"> 
+                        <span class="icon icon-icon-1-6"></span>
+                        <div class="cont">
+                            <h5>Experienced Therapists</h5>
+                            <p>Our skilled and certified therapists are committed to providing exceptional care, ensuring each treatment is tailored to your needs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item"> 
+                        <span class="icon icon-icon-1-3"></span>
+                        <div class="cont">
+                            <h5>Luxurious Environment</h5>
+                            <p>Relax in our serene and luxurious environment, designed to offer you a peaceful escape from the stresses of everyday life.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item"> 
+                        <span class="icon icon-icon-1-1"></span>
+                        <div class="cont">
+                            <h5>Holistic Wellness</h5>
+                            <p>We focus on holistic wellness, using high-quality, natural products to enhance your overall well-being and rejuvenate your body and mind.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Services -->
+    <section class="barber-services section-padding" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-head text-center">
+                        <div class="section-subtitle">What We're Offering</div>
+                        <div class="section-title">Our Services</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 animate-box" data-animate-effect="fadeInUp">
+                    <div class="item">
+                        <div class="position-re o-hidden"> <img src="img/services/thaimassage.jpg" alt="Thai Massage"> </div>
+                        <div class="con">
+                            <!-- <div class="icon icon-icon-1-6"></div> -->
+                            <h5>Thai Massage</h5>
+                            <div class="line"></div>
+                            <div class="row">
+                                <div class="col-md-12 text-center">
+                                    <div class="permalink">Experience deep relaxation and improved flexibility with our traditional Thai massage, a perfect way to relieve tension.</div>
+                                    <!-- <h6>$60</h6> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 animate-box" data-animate-effect="fadeInUp">
+                    <div class="item">
+                        <div class="position-re o-hidden"> <img src="img/services/hot-oil-massage.jpg" alt="Hot Oil Massage"> </div>
+                        <div class="con">
+                            <!-- <div class="icon icon-icon-1-1"></div> -->
+                            <h5>Hot Oil Massage</h5>
+                            <div class="line"></div>
+                            <div class="row">
+                                <div class="col-md-12 text-center">
+                                    <div class="permalink">Indulge in our hot oil massage, designed to soothe your muscles and nourish your skin with warm, aromatic oils.</div>
+                                    <!-- <h6>$70</h6> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 animate-box" data-animate-effect="fadeInUp">
+                    <div class="item">
+                        <div class="position-re o-hidden"> <img src="img/services/deep-tissue-massage.jpg" alt="Deep Tissue Massage"> </div>
+                        <div class="con">
+                            <!-- <div class="icon icon-icon-1-4"></div> -->
+                            <h5>Deep Tissue Massage</h5>
+                            <div class="line"></div>
+                            <div class="row">
+                                <div class="col-md-12 text-center">
+                                    <div class="permalink">Our deep tissue massage targets deeper layers of muscle, providing relief from chronic pain and tension.</div>
+                                    <!-- <h6>$75</h6> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 animate-box" data-animate-effect="fadeInUp">
+                    <div class="item">
+                        <div class="position-re o-hidden"> <img src="img/services/four-hand-massage.jpg" alt="Four-Hand Massage"> </div>
+                        <div class="con">
+                            <!-- <div class="icon icon-icon-1-2"></div> -->
+                            <h5>Four-Hand Massage</h5>
+                            <div class="line"></div>
+                            <div class="row">
+                                <div class="col-md-12 text-center">
+                                    <div class="permalink">Double the relaxation with our four-hand massage, performed by two therapists for a more immersive experience.</div>
+                                    <!-- <h6>$90</h6> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 animate-box" data-animate-effect="fadeInUp">
+                    <div class="item">
+                        <div class="position-re o-hidden"> <img src="img/services/bodyscrub.jpg" alt="Body Scrub"> </div>
+                        <div class="con">
+                            <!-- <div class="icon icon-icon-1-5"></div> -->
+                            <h5>Body Scrub</h5>
+                            <div class="line"></div>
+                            <div class="row">
+                                <div class="col-md-12 text-center">
+                                    <div class="permalink">Revitalize your skin with our body scrub treatment, leaving your skin smooth, soft, and glowing.</div>
+                                    <!-- <h6>$50</h6> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="background bg-img bg-fixed section-padding pb-0" data-background="img/bg-1.jpg" data-overlay-dark="4">
+        <div class="container">
+            <div class="row">
+                <!-- Testimonials -->
+                <div class="col-md-8 offset-md-2 text-center">
+                    <div class="testimonials">
+                        <div class="testimonials-box">
+                            <div class="owl-carousel owl-theme">
+                                <div class="item"> <span>
+                                        <i class="star-rating"></i>
+                                        <i class="star-rating"></i>
+                                        <i class="star-rating"></i>
+                                        <i class="star-rating"></i>
+                                        <i class="star-rating"></i>
+                                    </span>
+                                    <p>this shop is amazing very good atmosphere and massage therapist are good attention</p>
+                                    <div class="info">
+                                        <!-- <div class="author-img"> <img src="img/team/1.jpg" alt=""> </div> -->
+                                        <div class="cont">
+                                            <h6>Shnwr mhr</h6> <span>Customer review</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- First Class Services -->
+        <!-- Team -->
+    <section class="team section-padding pb-0" id="staffs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-head text-center">
+                        <div class="section-subtitle">Our Staffs</div>
+                        <div class="section-title white">Experienced Massage Therapists</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="team-card mb-30">
+                            <div class=""><img src="img/staffs/Aiwa(Thailand).jpg" alt="" class="w-100"></div>
+                            <div class="title-box">
+                                <h3 class="mb-0">Aiwa<span>Barber</span></h3>
+                            </div>
+                        </div>
+                        <div class="team-card mb-30">
+                            <div class=""><img src="img/staffs/Emmy (Thailand).jpg" alt="" class="w-100"></div>
+                            <div class="title-box">
+                                <h3 class="mb-0">Emmy<span>Thailand</span></h3>
+                            </div>
+                        </div>
+                        <div class="team-card mb-30">
+                            <div class=""><img src="img/staffs/Lucky(Thailand).jpg" alt="" class="w-100"></div>
+                            <div class="title-box">
+                                <h3 class="mb-0">Lucky<span>Thailand</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="team-card mb-30">
+                            <div class=""><img src="img/staffs/Maii (Thailand).jpg" alt="" class="w-100"></div>
+                            <div class="title-box">
+                                <h3 class="mb-0">Maii<span>Thailand</span></h3>
+                            </div>
+                        </div>
+                        <div class="team-card mb-30">
+                            <div class=""><img src="img/staffs/Mango (Thailand).jpg" alt="" class="w-100"></div>
+                            <div class="title-box">
+                                <h3 class="mb-0">Mango<span>Thailand</span></h3>
+                            </div>
+                        </div>
+                        <div class="team-card mb-30">
+                            <div class=""><img src="img/staffs/Maya(Russia).jpg" alt="" class="w-100"></div>
+                            <div class="title-box">
+                                <h3 class="mb-0">Maya<span>Russia</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="team-card mb-30">
+                            <div class=""><img src="img/staffs/Nancy (Thailand).jpg" alt="" class="w-100"></div>
+                            <div class="title-box">
+                                <h3 class="mb-0">Nancy<span>Thailand</span></h3>
+                            </div>
+                        </div>
+                        <div class="team-card mb-30">
+                            <div class=""><img src="img/staffs/Saamy(Thailand).jpg" alt="" class="w-100"></div>
+                            <div class="title-box">
+                                <h3 class="mb-0">Saamy<span>Thailand</span></h3>
+                            </div>
+                        </div>
+                        <div class="team-card mb-30">
+                            <div class=""><img src="img/staffs/Sehar(Pakistan).jpg" alt="" class="w-100"></div>
+                            <div class="title-box">
+                                <h3 class="mb-0">Sehar<span>Pakistan</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Video -->
+    <section class="section-padding video-wrapper video bg-img bg-fixed" data-overlay-dark="4" data-background="img/bg-2.jpg">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="section-head text-center">
+                        <div class="section-title white">Experience Luxurious Massage Service</div>
+                    </div>
+                </div>
+            </div>
             
-            <div class="button">
-              <h4 style="color: white;">Contact Us for Special discounts.</h1><br/>
-              <a href="tel:+971554043821" class="btn primary-btn"><i class="lni lni-phone"></i> Call</a>
-              <a href="https://api.whatsapp.com/send?phone=%2B971554043821&data" class="btn primary-btn"><i class="lni lni-whatsapp"></i> Whatsapp</a>
-              <!-- <a href="https://www.youtube.com/watch?v=r44RKWyfcFw&fbclid=IwAR21beSJORalzmzokxDRcGfkZA1AtRTE__l5N4r09HcGS5Y6vOluyouM9EM"
-                class="glightbox video-button">
-                <span class="btn icon-btn rounded-full">
-                  <i class="lni lni-play"></i>
-                </span>
-                <span class="text">Watch Intro</span>
-              </a> -->
+        </div>
+    </section>
+
+    <!-- Appointment Form with Map -->
+    <!-- Appointment Form -->
+    <section class="testimonials" id="contact">
+        <div class="background bg-img bg-fixed section-padding pb-0" data-background="img/slider/20.jpg" data-overlay-dark="6">
+            <div class="container">
+                <div class="row">
+                    <!-- Appointment call -->
+                    <div class="col-md-5 mb-30 mt-60">
+                        <p class="mb-0"><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i></p>
+                        <h5>We Are Best Massage Spa in Ajman.</h5>
+                        <div class="reservations mb-10">
+                            <div class="icon color-1"><span class="icon-icon-1-1"></span></div>
+                            <div class="text">
+                                <p class="color-1">Appointment</p> 
+                                <a class="color-1" href="tel:+971-58-838-4724">+971 58 838 4724</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Map -->
+                    <div class="col-md-7 offset-md-0">
+                        <div class="booking-box">
+                            <div class="head-box text-center">
+                                <h4>Visit Us</h4>
+                            </div>
+                            <div class="booking-inner clearfix">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.5162018728324!2d55.50411147623783!3d25.387526023963744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef5f7098eb11f4f%3A0x8219cc818317ca0a!2sJamaluk%20spa!5e0!3m2!1sen!2sin!4v1725185086933!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="col-lg-7 col-md-12 col-12">
-          <div class="header-image">
-            <img src="assets/images/jamaluk.jpeg" alt="#" />
-          </div>
+    </section>
+
+
+
+    <!-- Clients -->
+    <section class="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="owl-carousel owl-theme">
+                        <div class="clients-logo">
+                            <!-- <a href="#0"><img src="img/clients/2.png" alt=""></a> -->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <!-- End header Area -->
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="footer-column footer-contact">
+                            <h3 class="footer-title">Contact</h3>
+                            <p class="footer-contact-text">Al Rawda 2, Ajman
+                                <br>United Arab Emirates
+                            </p>
+                            <div class="footer-contact-info">
+                                <p class="footer-contact-phone">+971 55 404 3821</p>
+                                <p class="footer-contact-mail">jamalukspallc@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 offset-md-1">
+                        <div class="item opening">
+                            <h3 class="footer-title">Work Time</h3>
+                            <ul>
+                                <li>
+                                    <div class="tit">Saturday</div>
+                                    <div class="dots"></div> <span>11:00 AM - 3:00 AM</span>
+                                </li>
+                                <li>
+                                    <div class="tit">Sunday</div>
+                                    <div class="dots"></div> <span>11:00 AM - 3:00 AM</span>
+                                </li>
+                                <li>
+                                    <div class="tit">Monday</div>
+                                    <div class="dots"></div> <span>11:00 AM - 3:00 AM</span>
+                                </li>
+                                <li>
+                                    <div class="tit">Tuesday</div>
+                                    <div class="dots"></div> <span>11:00 AM - 3:00 AM</span>
+                                </li>
+                                <li>
+                                    <div class="tit">Wednesday</div>
+                                    <div class="dots"></div> <span>11:00 AM - 3:00 AM</span>
+                                </li>
+                                <li>
+                                    <div class="tit">Thursday</div>
+                                    <div class="dots"></div> <span>11:00 AM - 3:00 AM</span>
+                                </li>
+                                <li>
+                                    <div class="tit">Friday</div>
+                                    <div class="dots"></div> <span>11:00 AM - 3:00 AM</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="footer-bottom-inner">
+                            <p class="footer-bottom-copy-right">2024 © All rights reserved. Designed by Hotzin Digital</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-  <!--====== js ======-->
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/glightbox.min.js"></script>
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/tiny-slider.js"></script>
 
-  <script>
-
-    //===== close navbar-collapse when a  clicked
-    let navbarTogglerNine = document.querySelector(
-      ".navbar-nine .navbar-toggler"
-    );
-    navbarTogglerNine.addEventListener("click", function () {
-      navbarTogglerNine.classList.toggle("active");
-    });
-
-    // ==== left sidebar toggle
-    let sidebarLeft = document.querySelector(".sidebar-left");
-    let overlayLeft = document.querySelector(".overlay-left");
-    let sidebarClose = document.querySelector(".sidebar-close .close");
-
-    overlayLeft.addEventListener("click", function () {
-      sidebarLeft.classList.toggle("open");
-      overlayLeft.classList.toggle("open");
-    });
-    sidebarClose.addEventListener("click", function () {
-      sidebarLeft.classList.remove("open");
-      overlayLeft.classList.remove("open");
-    });
-
-    // ===== navbar nine sideMenu
-    let sideMenuLeftNine = document.querySelector(".navbar-nine .menu-bar");
-
-    sideMenuLeftNine.addEventListener("click", function () {
-      sidebarLeft.classList.add("open");
-      overlayLeft.classList.add("open");
-    });
-
-    //========= glightbox
-    GLightbox({
-      'href': 'https://www.youtube.com/watch?v=r44RKWyfcFw&fbclid=IwAR21beSJORalzmzokxDRcGfkZA1AtRTE__l5N4r09HcGS5Y6vOluyouM9EM',
-      'type': 'video',
-      'source': 'youtube', //vimeo, youtube or local
-      'width': 900,
-      'autoplayVideos': true,
-    });
-
-  </script>
+    <!-- jQuery -->
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.isotope.v3.0.2.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollIt.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/YouTubePopUp.js"></script>
+    <script src="js/select2.js"></script>
+    <script src="js/datepicker.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/custom.js"></script>
 </body>
 
 </html>
