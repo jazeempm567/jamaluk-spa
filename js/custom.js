@@ -40,6 +40,11 @@ $(function () {
         onPageChange: null, // function(pageIndex) that is called when page is changed
         topOffset: -70 // offste (in px) for fixed top navigation
     });
+
+    /** On Load Modal **/
+    $(document).ready(function() {
+        $('#newsletter-modal').modal('show');
+    });
     
     // Navbar scrolling background 
     wind.on("scroll", function () {

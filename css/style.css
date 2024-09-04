@@ -354,6 +354,66 @@ blockquote cite:before {
     color: #91765a;
 }
 
+/* Newsletter Modal CSS */
+
+.modal:before {
+    background: var(--black);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    content: "";
+    opacity: .85;
+}
+
+.modal-newsletter {}
+
+.modal-content {
+    background: var(--ext-alternate-bg);
+}
+
+.modal-body {
+    padding: 0;
+}
+
+.ext-newsletter-info .ext-newsletter-section-inner .ext-input-wrap input {
+    width: 100%;
+    border-radius: var(--ext-radius-comman);
+}
+
+.ext-newsletter-info .ext-newsletter-section-inner .ext-input-wrap .ext-btn {
+    border-radius: var(--ext-radius-comman);
+    margin: 20px 0 35px;
+}
+
+#newsletter-modal .btn-close {
+    background: red;
+    width: 25px;
+    text-align: center;
+    line-height: 22px;
+    height: 25px;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    border: 2px solid red;
+    cursor: pointer;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    opacity: 1;
+    z-index: 1;
+}
+
+.ext-newsletter-info {
+    padding: 0 30px 0 0;
+    text-align: center;
+}
+
+.ext-newsletter-info .ext-newsletter-section-inner .ext-input-wrap {
+    margin: 13px 0 0;
+}
+
 
 /* ======= Helper style ======= */
 
@@ -5522,6 +5582,64 @@ a:hover.post-repay {
     color: #fff;
 }
 
+/* whatsapp button */
+.whatsapp-btn {
+    display: inline-flex;
+    align-items: center;
+    height: auto;
+    padding: 15px 25px;
+    border: 0.5px solid #fafafa;
+    border-radius: 3px;
+    background-color: #0e7929;
+    -webkit-transition: border-color 400ms ease, color 400ms ease, background-color 400ms ease;
+    transition: border-color 400ms ease, color 400ms ease, background-color 400ms ease;
+    color: white;
+    line-height: 20px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.whatsapp-btn:hover {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #ffffff;
+    background-color: #198d36;
+    color: white;
+}
+
+
+/* Call button */
+.call-btn {
+    display: inline-flex;
+    align-items: center;
+    height: auto;
+    padding: 15px 25px;
+    border: 0.5px solid #fafafa;
+    border-radius: 3px;
+    background-color: #064b9f;
+    -webkit-transition: border-color 400ms ease, color 400ms ease, background-color 400ms ease;
+    transition: border-color 400ms ease, color 400ms ease, background-color 400ms ease;
+    color: white;
+    line-height: 20px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.call-btn:hover {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #ffffff;
+    background-color: #0b50a3;
+    color: white;
+}
 
 /* button 2 */
 
